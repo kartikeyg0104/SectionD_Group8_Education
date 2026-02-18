@@ -35,9 +35,11 @@ The dashboard answers:
 │  ├─ dashboard_image_latest.png
 │  └─ dashboard_link.md
 ├─ Presentation/
-│  └─ JobMarketAnalytics_Presentation.pdf 
+|  ├─ JobMarketAnalytics_Presentation.pdf
+│  └─ presentation_link.md
 ├─ Documentation/
-│  └─ JobMarket_Analytics_Report.pdf
+|  ├─ JobMarket_Analytics_Report.pdf
+│  └─ documentation_link.md
 └─ README.md
 ```
 ---
