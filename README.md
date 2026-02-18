@@ -100,7 +100,7 @@ These summarise overall **volume, interest, and flexibility** in the job market.
 
 ## 🖼 Dashboard Screenshots
 
-<img src="dashboards/dashboard_image.png" width="100%" />
+<img src="dashboards/dashboard_image_latest.png" width="100%" />
 
 
 The dashboard views show:
