@@ -4,7 +4,7 @@ A data analytics capstone project on **LinkedIn job postings in India**, focused
 
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project uses a **7‑day snapshot (168 hours)** of LinkedIn India job postings and converts it into:
 
@@ -21,30 +21,28 @@ The dashboard answers:
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```text
 .
-├─ raw_dataset/
-│  ├─ linkdin_Job_data.csv
-│  └─ SecD_Team08_JobMarketAnalytics-Raw_Data_(Frozen).csv
-├─ cleaned_dataset/
-│  ├─ SecD_Team08_JobMarketAnalytics-Final-Cleaned-Dataset.csv
-│  └─ SecD_Team08_JobMarketAnalytics-Data-Dictionary.csv
-├─ calculations_and_pivots/
-│  └─ SecD_Team08_JobMarketAnalytics-Pivot-Tables-and-Calculations.csv
-├─ dashboards/
-│  ├─ dashboard-link.md
-│  └─dashboard_image.png
-├─ presentation/
-│  └─ JobMarket_Analytics_Presentation.pptx 
-├─ documentation/
+├─ Raw Dataset/
+│  └─ SecD_Team08_JobMarketAnalytics - Raw_Data_(Frozen).csv
+├─ Cleaned Dataset/
+│  └─ SecD_Team08_JobMarketAnalytics - Final Cleaned Dataset.csv
+├─ Calculations and Pivot Table/
+│  └─ SecD_Team08_JobMarketAnalytics - Data Dictionary.pdf
+├─ Dashboards/
+│  ├─ dashboard_image_latest.png
+│  └─ dashboard_link.md
+├─ Presentation/
+│  └─ JobMarketAnalytics_Presentation.pdf 
+├─ Documentation/
 │  └─ JobMarket_Analytics_Report.pdf
 └─ README.md
 ```
 ---
 
-## 🧠 Data Description
+## Data Description
 
 **Source:** LinkedIn Job Postings (public pages, India; original file hosted on Kaggle).
 **Time window:** last **168 hours (7 days)** at the time of extraction.
@@ -65,9 +63,9 @@ Limitations: no salary data, skills are unstructured, and some values for `Job_L
 
 ---
 
-## 🧹 Data Cleaning Notes
+## Data Cleaning Notes
 
-All primary work was done in **Google Sheets**.
+All primary work was done in [Google Sheets](https://docs.google.com/spreadsheets/d/1Tfquq2QtdUFKxy6JRXYuxYqXV5gSDn5t_J8ijGLS_ho/edit?gid=1955884023#gid=1955884023).
 
 - Removed duplicate `Job_ID` records → 5,074 unique jobs.
 - Dropped non‑informative columns (e.g., `company_id`).
@@ -81,7 +79,7 @@ All primary work was done in **Google Sheets**.
 
 ---
 
-## 📊 KPI Tiles (Dashboard)
+## KPI Tiles (Dashboard)
 
 The final dashboard uses **four** KPIs, calculated on the “Final Cleaned Dataset” sheet:
 
@@ -98,7 +96,7 @@ These summarise overall **volume, interest, and flexibility** in the job market.
 
 ---
 
-## 🖼 Dashboard Screenshots
+## Dashboard Screenshots
 
 <img src="Dashboards/dashboard_image_latest.png" width="100%" />
 
@@ -114,7 +112,7 @@ The dashboard views show:
 
 ---
 
-## 📜 Data Dictionary (Quick View)
+## Data Dictionary (Quick View)
 
 Full dictionary:
 `cleaned_dataset/Copy-of-SecD_Team08_JobMarketAnalytics-Data-Dictionary.csv`.
@@ -139,7 +137,7 @@ Key fields:
 
 ---
 
-## 💡 Key Insights
+## Key Insights
 
 From the cleaned dataset and final analysis:
 
@@ -151,7 +149,7 @@ From the cleaned dataset and final analysis:
 
 ---
 
-## 🔍 Suggested Exploration
+## Suggested Exploration
 
 If you use this repo as a starting point, you can:
 
@@ -161,7 +159,7 @@ If you use this repo as a starting point, you can:
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 ```bash
@@ -176,7 +174,7 @@ cd <your-repo-name>
 
 ---
 
-## 🙌 Acknowledgements
+## Acknowledgements
 
 - LinkedIn, for providing the underlying job postings.
 - Faculty mentors **Archit Raj** and **Satyaki Das** for guidance on the DVA capstone.
