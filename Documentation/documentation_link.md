@@ -1,2 +1,2 @@
 <!-- link -->
-# [Documentation Link](https://drive.google.com/file/d/1ijq1v45othuav8miTFVTLtpHaT7s0MhX/view?usp=sharing)
+# [Documentation Link](https://docs.google.com/document/d/1NodQh1r1ZJZ4cY_Des83vMVjSK5Uxpg4uuzyXm0BuUc/edit?usp=sharing)
