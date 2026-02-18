@@ -67,7 +67,7 @@ Limitations: no salary data, skills are unstructured, and some values for `Job_L
 
 ## Data Cleaning Notes
 
-All primary work was done in [Google Sheets](https://docs.google.com/spreadsheets/d/1Tfquq2QtdUFKxy6JRXYuxYqXV5gSDn5t_J8ijGLS_ho/edit?gid=1955884023#gid=1955884023).
+All primary work was done in [Google Sheets](https://docs.google.com/spreadsheets/d/1hM_5eZMWcSwG7-S1IGEvm6n6QjCoFTcfTMuZBLJeRz8/edit?usp=sharing).
 
 - Removed duplicate `Job_ID` records → 5,074 unique jobs.
 - Dropped non‑informative columns (e.g., `company_id`).
